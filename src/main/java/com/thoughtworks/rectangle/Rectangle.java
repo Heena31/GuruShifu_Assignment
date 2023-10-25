@@ -14,6 +14,9 @@ class Rectangle{
      return length*breadth;
     }
 
-   
+    public double perimeter()
+    {
+        return (2*(length+breadth));
+    }
 
 }
